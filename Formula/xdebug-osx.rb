@@ -15,7 +15,6 @@ class XdebugOsx < Formula
   end
 
   depends_on PhpMetaRequirement
-  depends_on "php53-xdebug" if Formula["php53"].linked_keg.exist?
   depends_on "php54-xdebug" if Formula["php54"].linked_keg.exist?
   depends_on "php55-xdebug" if Formula["php55"].linked_keg.exist?
   depends_on "php56-xdebug" if Formula["php56"].linked_keg.exist?
